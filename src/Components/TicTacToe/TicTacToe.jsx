@@ -93,7 +93,7 @@ let titleRef =useRef(null);
     data =["","","","","","","","",""]
     titleRef.current.innerHTML ='Tic Tac Toe Game <span>in React  </span>'
     box_array.map((e)=>{
-      e.current.innerHTML = "";
+     return  e.current.innerHTML = "";
 
     })
   }
